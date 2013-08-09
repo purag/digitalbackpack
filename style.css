@@ -88,6 +88,20 @@ h2 {
 	z-index:100;
 }
 
+#quotes {
+    background:url();
+    height:100%;
+    width:100%;
+	z-index:100;
+}
+
+#map {
+    background:url('retina_wood.png');
+    height:100%;
+    width:100%;
+	z-index:100;	
+}
+
 /* @@@@@@@@@@@@@@@ LANDING PAGE STYLES @@@@@@@@@@@@@@@ */
 
 #stuvoice {
