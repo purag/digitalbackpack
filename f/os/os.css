@@ -1,0 +1,59 @@
+/* ==== OpenSans Regular ==== */
+@font-face {
+    font-family: 'OpenSans';
+    src: url('osr/OpenSans-Regular-webfont.eot');
+    src: url('osr/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('osr/OpenSans-Regular-webfont.woff') format('woff'),
+         url('osr/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('osr/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ==== OpenSans Semibold ==== */
+@font-face {
+    font-family: 'OpenSans semi';
+    src: url('oss/OpenSans-Semibold-webfont.eot');
+    src: url('oss/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('oss/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('oss/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('oss/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ==== OpenSans Bold ==== */
+@font-face {
+    font-family: 'OpenSans bold';
+    src: url('osb/OpenSans-Bold-webfont.eot');
+    src: url('osb/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('osb/OpenSans-Bold-webfont.woff') format('woff'),
+         url('osb/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('osb/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ==== OpenSans Extrabold ==== */
+@font-face {
+    font-family: 'OpenSans extra';
+    src: url('ose/OpenSans-ExtraBold-webfont.eot');
+    src: url('ose/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ose/OpenSans-ExtraBold-webfont.woff') format('woff'),
+         url('ose/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+         url('ose/OpenSans-ExtraBold-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ==== OpenSans Light ==== */
+@font-face {
+    font-family: 'OpenSans light';
+    src: url('osl/OpenSans-Light-webfont.eot');
+    src: url('osl/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('osl/OpenSans-Light-webfont.woff') format('woff'),
+         url('osl/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('osl/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

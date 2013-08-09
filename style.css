@@ -1,0 +1,480 @@
+/* @@@@@@@@@@@@@@ RESET @@@@@@@@@@@@@@ */
+* {
+	margin:0;
+	padding:0;
+}
+html {
+    height:100%;
+    width:100%;
+}
+body {
+    height:100%;
+    width:100%;
+    overflow-y:scroll;
+	overflow-x:hidden;
+}
+a {
+	text-decoration:none;
+}
+a:visted {
+	color:inherit;
+}
+input:focus {
+	outline:0;
+}
+ul li {
+	list-style:none;
+}
+input {
+	-webkit-appearance:none;
+}
+.cf:before,
+.cf:after {
+        content:" ";
+        display:table;
+}
+.cf:after {
+        clear:both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+        *zoom:1;
+}
+
+/* @@@@@@@@@@@@@@ STYLES @@@@@@@@@@@@@@ */
+
+header {
+	font-size:3em;
+}
+
+h1,h2 {
+	width:auto;
+	margin:-20px auto 0 auto;
+	text-align:center;
+    font-family:'OpenSans extra';
+    color:#fff;
+    letter-spacing:3px;
+    font-size:1.15em;
+	text-shadow:0px 0px 4px rgba(0,0,0,.6);
+}
+
+h2 {
+	margin:-15px auto 0 auto;
+	font-size:0.45em;
+	color:#fff;
+}
+
+#landing {
+    height:100%;
+    width:100%;
+}
+
+#landing > .background {
+	position:absolute;
+	top:-5%;
+	left:-5%;
+	width:110%;
+	height:110%;
+    background:url('slir/w2560/class.png') center center;
+}
+
+#about {
+    background:url('retina_wood.png');
+    height:100%;
+    width:100%;
+	z-index:100;
+}
+
+/* @@@@@@@@@@@@@@@ LANDING PAGE STYLES @@@@@@@@@@@@@@@ */
+
+#stuvoice {
+	display:block;
+	height:65px;
+    margin:0 auto;
+}
+
+.buttons {
+	width:480px;
+	height:40px;
+	margin:0 auto;
+}
+
+.tour, .skip {
+	display:block;
+	float:left;
+    padding:5px 20px;
+    background-color:#b32929;
+    font-family:'OpenSans bold',sans-serif;
+    font-size:1.15em;
+    color:#fff;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -ms-border-radius:4px;
+    -o-border-radius:4px;
+    border-radius:4px;
+    border-style:solid;
+    border-bottom-width:3px;
+    border-right-width:1px;
+    border-color:#771919;
+    border-top-width:0px;
+    border-left-width:0px;
+	transition:all 0.1s ease-in-out;
+	text-shadow:none;
+}
+
+.skip {
+	background-color:#eee;
+	border-color:#aaa;
+	color:#444;
+	margin-left:20px;
+}
+
+.tour:hover, .skip:hover {
+	border-bottom-width:0;
+	border-right-width:0;
+	border-left-width:1px;
+	border-top-width:3px;
+}
+
+.text {
+	margin-top:236px;
+    font-family:'OpenSans',sans-serif;
+    color:#fff;
+	text-shadow:0px 0px 3px rgba(0,0,0,0.6);
+	text-align:center;
+	z-index:99;
+}
+
+.content {
+    position:absolute;
+    width:1000px;
+    margin-left:50%;
+    left:-500px;
+    height:506px;
+    top:50%;
+	margin-top:-206px;
+}
+
+.elements {
+	width:716px;
+	height:206px;
+	display:block;
+	margin-left:50%;
+	left:-358px;
+	position:fixed;
+	z-index:200;
+}
+
+.notebook, .paper, .pen, .disk, .ruler, .phone {
+	position:relative;
+	float:left;
+	margin:0;
+}
+
+.notebook div, .paper div, .pen div, .disk div, .ruler div, .phone div {
+	position:absolute;
+}
+
+.paper {
+	margin:20px 0;
+    width:180px;
+    height:206px;
+}
+.paper .shadow {
+    background-color:#000;
+    opacity:0.05;
+    width:170px;
+    height:200px;
+    left:6px;
+    top:6px;
+}
+.paper .sheet {
+    background-color:#fff;
+    width:170px;
+    height:200px;
+}
+.paper .line1 {
+    background-color:#d2f0ff;
+    width:40px;
+    height:10px;
+    top:20px;
+    left:20px;
+}
+.paper .line2 {
+    background-color:#d2f0ff;
+    width:130px;
+    height:10px;
+    top:45px;
+    left:20px;
+}
+.paper .line3 {
+    background-color:#d2f0ff;
+    width:130px;
+    height:10px;
+    top:60px;
+    left:20px;
+}
+.paper .line4 {
+    background-color:#d2f0ff;
+    width:130px;
+    height:10px;
+    top:75px;
+    left:20px;
+}
+.paper .line5 {
+    background-color:#d2f0ff;
+    width:130px;
+    height:10px;
+    top:90px;
+    left:20px;
+}
+
+.mid {
+	width:316px;
+	height:206px;
+	margin:20px;
+	float:left;
+}
+	.pen {
+		width:20px;
+		height:150px;
+	}
+	.pen .shaft {
+		width:12px;
+		height:120px;
+		background-color:#808080;
+		top:20px;
+		left:1px;
+	}
+	.pen .cap {
+		width:14px;
+		height:40px;
+		background-color:#55c6ff;
+	}
+	.pen .bottom {
+		width:6px;
+		height:2px;
+		background-color:#55c6ff;
+		top:140px;
+		left:4px;
+	}
+	.pen .clip1 {
+		width:2px;
+		height:50px;
+		background-color:#55c6ff;
+		top:20px;
+		left:15px;
+	}
+	.pen .clip2 {
+		width:2px;
+		height:8px;
+		background-color:#55c6ff;
+		top:24px;
+		left:13px;
+	}
+	.pen .shadow {
+		width:12px;
+		height:120px;
+		background-color:#000;
+		top:25px;
+		left:6px;
+		opacity:0.05;
+	}
+	.pen .shadowbottom {
+		width:6px;
+		height:2px;
+		background-color:#000;
+		top:145px;
+		left:9px;
+		opacity:0.05;
+	}
+
+	.disk {
+		margin:0 20px;
+		width:150px;
+		height:150px;
+	}
+	.disk .outercircle {
+		background-color:#afadad;
+		-webkit-border-radius:72px;
+		-moz-border-radius:72px;
+		-ms-border-radius:72px;
+		-o-border-radius:72px;
+		border-radius:72px;
+		width:144px;
+		height:144px;
+	}
+	.disk .innercircle {
+		-webkit-border-radius:20px;
+		-moz-border-radius:20px;
+		-ms-border-radius:20px;
+		-o-border-radius:20px;
+		border-radius:20px;
+		width:40px;
+		height:40px;
+		margin-top:50%;
+		margin-left:50%;
+		left:-23px;
+		top:-23px;
+		overflow:hidden;
+		background:#fff;
+	}
+	.disk .innercircle .background {
+		width:100%;
+		height:100%;
+		top:0;
+		left:0;
+		background-image:url('slir/w2560/class.jpg');
+		background-position:;
+		-webkit-filter:blur(15px);
+	}
+	.disk .shadow {
+		background-color:rgba(0,0,0,.05);
+		-webkit-border-radius:72px;
+		-moz-border-radius:72px;
+		-ms-border-radius:72px;
+		-o-border-radius:72px;
+		border-radius:72px;
+		width:144px;
+		height:144px;
+		left:4px;
+		top:4px;
+	}
+
+	.phone {
+		width:106px;
+		height:150px;
+	}
+	.phone .body {
+		top:0;
+		left:0;
+		width:100px;
+		height:144px;
+		background:#333;
+		border-radius:10px;
+	}
+	.phone .screen {
+		top:15px;
+		left:5px;
+		width:90px;
+		height:105px;
+		background:#eee;
+	}
+	.phone .button {
+		top:124px;
+		left:42px;
+		width:16px;
+		height:16px;
+		border-radius:8px;
+		background-color:#aaa;
+	}
+	
+	.ruler {
+		margin-top:20px;
+		clear:both;
+		width:316px;
+		height:36px;
+	}
+	.ruler .stick {
+		background-color:#fec98f;
+		width:310px;
+		height:30px;
+	}
+	.ruler .shadow {
+		background-color:#000;
+		opacity:0.05;
+		top:6px;
+		left:6px;
+		width:310px;
+		height:30px;
+	}
+
+.notebook {
+	margin:20px 0;
+    width:180px;
+    height:210px;
+    z-index:200;
+}
+.notebook .cover {
+    width:170px;
+    height:200px;
+    background-color:#771919;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;
+}
+.notebook .page {
+	overflow:hidden;
+    width:170px;
+    height:200px;
+    background-color:#FFF;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+	background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+	background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+	background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+	background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+	background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+	-webkit-background-size: 100% 20px;
+	-moz-background-size: 100% 20px;
+	-ms-background-size: 100% 20px;
+	-o-background-size: 100% 20px;
+	background-size: 100% 20px;
+}
+.page.r::before {
+	content: '';
+	position: absolute;
+	width: 4px;
+	top: 0;
+	left: 50px;
+	bottom: 0;
+	border: 1px solid;
+	border-color: transparent #efe4e4;
+}
+.page.r {
+	border-left:1px solid #eee;
+}
+.page.l::after {
+	content: '';
+	position: absolute;
+	width: 4px;
+	top: 0;
+	right: 50px;
+	bottom: 0;
+	border: 1px solid;
+	border-color: transparent #efe4e4;
+}
+.notebook .spine {
+    width:20px;
+    height:200px;
+    background-color:#000;
+}
+.notebook .shadow {
+    width:170px;
+    height:200px;
+    background-color:#000;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;
+    -webkit-border-bottom-left-radius:0px;
+    -moz-border-bottom-left-radius:0px;
+    -ms-border-bottom-left-radius:0px;
+    -o-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+    top:6px;
+    left:6px;
+    opacity:0.05;
+}
+
+/* @@@@@@@@@@@@@@@ ABOUT PAGE STYLES @@@@@@@@@@@@@@@ */
