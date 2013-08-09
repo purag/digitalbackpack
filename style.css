@@ -97,7 +97,7 @@ h2 {
 }
 
 .buttons {
-	width:480px;
+	display:inline-block;
 	height:40px;
 	margin:0 auto;
 }
