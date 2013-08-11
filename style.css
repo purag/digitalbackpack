@@ -89,7 +89,7 @@ h2 {
 }
 
 #quotes {
-    background:url();
+    background-color: #84cba9;
     height:100%;
     width:100%;
 	z-index:100;
@@ -426,6 +426,12 @@ h2 {
 	overflow:hidden;
     width:170px;
     height:200px;
+	border:1px solid #d9d9d9;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
     background-color:#FFF;
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
@@ -491,4 +497,22 @@ h2 {
     opacity:0.05;
 }
 
+.page h1,.page h2 {
+	font-family:'Journal',sans-serif;
+	color:#000;
+	text-shadow:none;
+	font-size:3.15em;
+	letter-spacing:0.015em !important;
+	margin-top:-30px;
+}
+
+.page h2 {
+	font-size:2.25em;
+}
+
 /* @@@@@@@@@@@@@@@ ABOUT PAGE STYLES @@@@@@@@@@@@@@@ */
+
+.StuVoice {
+	position: relative;
+	padding: 60px;
+}

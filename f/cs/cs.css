@@ -1,0 +1,15 @@
+/* ==== CabinSketch Regular ==== */
+@font-face {
+    font-family: 'CabinSketch';
+    src: url('csr/CabinSketch-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ==== CabinSketch Bold ==== */
+@font-face {
+    font-family: 'CabinSketch bold';
+    src: url('csb/CabinSketch-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
